@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "hector/boot"
+require_relative "./../lib/hector/boot"
 require "fileutils"
 
 include FileUtils::Verbose
